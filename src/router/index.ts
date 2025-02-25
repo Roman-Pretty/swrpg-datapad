@@ -1,4 +1,4 @@
-import {createRouter, createWebHistory} from 'vue-router'
+import {createRouter, createWebHashHistory} from 'vue-router'
 
 import MainPage from '../pages/MainPage.vue';
 import Maneuvers from "../pages/Maneuvers.vue";
@@ -10,7 +10,7 @@ import Recovery from "../pages/Recovery.vue";
 
 
 const router = createRouter({
-    history: createWebHistory('/swrpg-datapad/'),
+    history: createWebHashHistory(),
     routes: [
         {path: '/', name: 'Main Page', component: MainPage},
         {path: '/maneuvers', name: 'Maneuvers', component: Maneuvers},
