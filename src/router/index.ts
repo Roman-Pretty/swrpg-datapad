@@ -8,10 +8,9 @@ import ItemQualitiesPassive from "../pages/ItemQualitiesPassive.vue";
 import Environment from "../pages/Environment.vue";
 import Recovery from "../pages/Recovery.vue";
 
-let base = (import.meta.env.MODE == 'development') ? import.meta.env.BASE_URL : ''
 
 const router = createRouter({
-    history: createWebHistory(base),
+    history: createWebHistory('/swrpg-datapad/'),
     routes: [
         {path: '/', name: 'Main Page', component: MainPage},
         {path: '/maneuvers', name: 'Maneuvers', component: Maneuvers},
