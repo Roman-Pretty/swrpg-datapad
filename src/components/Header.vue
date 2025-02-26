@@ -78,7 +78,7 @@
     <div class="navbar-end">
       <ul class="menu menu-horizontal px-1 dropdown ">
         <li class="inria-sans-regular">
-          <a href="/"><Download :size="16"/>Download</a>
+          <a href="https://github.com/Roman-Pretty/swrpg-datapad/raw/refs/heads/master/downloads.zip" download><Download :size="16"/>Download</a>
         </li>
       </ul>
     </div>
